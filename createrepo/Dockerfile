@@ -1,4 +1,4 @@
 FROM centos:latest
 RUN yum install -y createrepo
-WORKDIR /root
+WORKDIR /app
 ENTRYPOINT [ "createrepo" ]
